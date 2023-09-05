@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_vJVDgUs2Ee6XGdJtcbZRoQ" label="XYZ-Ecommerce-Data-Warehouse-Analytics" language="java" technicalLabel="XYZ_ECOMMERCE_DATA_WAREHOUSE_ANALYTICS" author="_vJVDgks2Ee6XGdJtcbZRoQ" productVersion="Talend Cloud Data Management Platform-8.0.1.20230815_1353-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Youcode-SHEN/XYZ-Ecommerce-Data-Warehouse-Analytics.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_vLSLUEs2Ee6XGdJtcbZRoQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_vJVDgks2Ee6XGdJtcbZRoQ" login="hnadir.dev@trial47542.us.talend.com" firstName="NADIR HICHAM" lastName="Hichamdos" type="DQ"/>
+</xmi:XMI>
