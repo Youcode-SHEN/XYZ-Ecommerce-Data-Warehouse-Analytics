@@ -1,0 +1,29 @@
+{
+  "itemId" : "_qDnmME1gEe6_WPbFtGes2w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_G-pyIE1hEe6_WPbFtGes2w",
+    "parameterList" : [ {
+      "id" : "_G-4boU1hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Login"
+    }, {
+      "id" : "_G-4bok1hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Schema"
+    }, {
+      "id" : "_G-4bo01hEe6_WPbFtGes2w",
+      "name" : "StagingArea_AdditionalParams"
+    }, {
+      "id" : "_G-4bpE1hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Password"
+    }, {
+      "id" : "_G-4bpU1hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Server"
+    }, {
+      "id" : "_G-4bpk1hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Port"
+    }, {
+      "id" : "_G-4bp01hEe6_WPbFtGes2w",
+      "name" : "StagingArea_Database"
+    } ]
+  } ]
+}

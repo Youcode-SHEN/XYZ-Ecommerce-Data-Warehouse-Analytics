@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.StagingArea_AdditionalParams" ContextId="_G-pyIE1hEe6_WPbFtGes2w" ContextMode="true" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" FileFieldName="" NullChar="" Password="context.StagingArea_Password" Port="context.StagingArea_Port" ProductId="SQL_SERVER" SID="context.StagingArea_Database" SQLMode="false" ServerName="context.StagingArea_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://192.168.137.1:1433/stagingAreaXYZ;instance=SQLEXPRESS" UiSchema="context.StagingArea_Schema" Username="context.StagingArea_Login" contextName="Default" dataPackage="_LVdaUE1hEe6_WPbFtGes2w" dbVersionString="JTDS" id="_qDnmME1gEe6_WPbFtGes2w" label="StagingArea" name="StagingArea" supportNLS="false" xmi:id="_JcBMcE1hEe6_WPbFtGes2w">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_JcBMcU1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="package filter" value="" xmi:id="_JcyBcE1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="Status" value="" xmi:id="_Jc6kUE1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Jc6kUU1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Jc6kUk1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="Description" value="" xmi:id="_Jc6kU01hEe6_WPbFtGes2w"/>
+    <taggedValue tag="Author" value="" xmi:id="_Jc6kVE1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="otherParameter" xmi:id="_Jc6kVU1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_KX_sgE1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="DB ProductVersion" value="16.00.1050" xmi:id="_KX_sgU1hEe6_WPbFtGes2w"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_KX_sgk1hEe6_WPbFtGes2w"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.StagingArea_Login" xmi:id="_JcBMck1hEe6_WPbFtGes2w"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_JcBMcE1hEe6_WPbFtGes2w" name="stagingAreaXYZ" xmi:id="_LVdaUE1hEe6_WPbFtGes2w">
+    <ownedElement name="dbo" xmi:id="_LVdaUU1hEe6_WPbFtGes2w" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b4077ce0-0fbe-4cb3-af49-04ddae57a61a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v3MKr+pLPJCDW9HBuaXFkhsXkFbRJOwE1RSIAGtEVVbljgUhWLadXk74XsINAKWoycwkD/VazfOl&#13;
+4LnGUAmMfQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e48cf231-64ce-4f18-9c34-e2211f65de2c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5EpmQcvDo6rCOSxiq2OpSbZHbPMEjhTL48kRPP/QWj73iXdRRBESP8K/SQA81QLKVCxBA4nHcphW&#13;
+GMY8mAHrtQ==</DigestValue></Reference></SignedInfo><SignatureValue>HKgGFS9KU++RR765/YcTDSgkacY19xGfiAHZDmT7dx3a95OL+8U8siiic1NXCdjcBh8z0uURMEkt&#13;
+AxFqx+RAkgWiqlmwWFB4uBfovCYXCU7Np3WHuI59+4AN88OzKTr3pLUJOmeSn1vFyvk7/HOMkgi2&#13;
+HQ5sRSdp97FCN239Gw78zSV1nL6fo4Dhih2Sqj8ehJAze+jRPFPkt318AkIYey0YE8eBUpBzW4Ia&#13;
+9YFiGKxSg1u50yYGVIS3c9iuKfBxbF25AIBUMI7kRHjYDngFKqf6FZHoM12SgNa4V/bVvVyoAVUG&#13;
+tSVejtYUv17OwgP9e1Nm3DnM+F8NMRLnvouoTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e48cf231-64ce-4f18-9c34-e2211f65de2c" Target="#_b4077ce0-0fbe-4cb3-af49-04ddae57a61a"><Timestamp>2023-09-07 09:30:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
