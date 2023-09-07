@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_WME-kE1hEe6_WPbFtGes2w" name="StagingArea_Login" prompt="StagingArea_Login?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="DataEngineer"/>
+    <contextParameter comment="" internalId="_WME-kU1hEe6_WPbFtGes2w" name="StagingArea_Schema" prompt="StagingArea_Schema?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_WME-kk1hEe6_WPbFtGes2w" name="StagingArea_AdditionalParams" prompt="StagingArea_AdditionalParams?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="instance=SQLEXPRESS"/>
+    <contextParameter comment="" internalId="_WME-k01hEe6_WPbFtGes2w" name="StagingArea_Password" prompt="StagingArea_Password?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_Password" value="enc:system.encryption.key.v1:LfpK9NduTZGhbvBJNxzHfMSbb/rUmwwZTv42zeZF5m0oS/QuxSbMAgTG"/>
+    <contextParameter comment="" internalId="_WME-lE1hEe6_WPbFtGes2w" name="StagingArea_Server" prompt="StagingArea_Server?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="192.168.137.1"/>
+    <contextParameter comment="" internalId="_WME-lU1hEe6_WPbFtGes2w" name="StagingArea_Port" prompt="StagingArea_Port?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="1433"/>
+    <contextParameter comment="" internalId="_WME-lk1hEe6_WPbFtGes2w" name="StagingArea_Database" prompt="StagingArea_Database?" promptNeeded="false" repositoryContextId="_G-pyIE1hEe6_WPbFtGes2w" type="id_String" value="stagingAreaXYZ"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -108,7 +116,7 @@
     <routinesParameter id="_wZzz9ks2Ee6XGdJtcbZRoQ" name="TalendStringUtil"/>
     <routinesParameter id="_wZqC9ks2Ee6XGdJtcbZRoQ" name="TalendString"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_wT8KME1fEe6_WPbFtGes2w"/>
@@ -329,7 +337,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
+  <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUnite_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tUnite_1">
@@ -363,7 +371,7 @@
       <column comment="" key="false" length="4" name="QualityScore" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputJSON" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
+  <node componentName="tFileInputJSON" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HUDP0E1gEe6_WPbFtGes2w"/>
@@ -654,7 +662,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -759,6 +767,32 @@
       <column comment="" key="false" length="4" name="QualityScore" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qDnmME1gEe6_WPbFtGes2w"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.StagingArea_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.StagingArea_Port"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.StagingArea_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.StagingArea_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.StagingArea_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Eb2BaUep7uKyFSgTq+8sidvDyKO4aLbHHrlkFFVPfHc6rzx2039CGCjVoeLCY/c1xsNC30E5hpw="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.StagingArea_AdditionalParams"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="StagingArea"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="10" mergeOrder="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -771,18 +805,26 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_34f368ad-4347-459b-95d4-d4fc4bd44297"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9VcMhBAE/hOz6WYB2PcWDrgaPt4LzYlUzASsigenqgSJG+Az0YLq7KMAqWKWUslDKrDlMgYq1aaB&#13;
-cVWUr+Ju6A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_46742692-34d8-4a11-82dd-8a510b38e508"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8gzRbAgXlk6ldRTKwltnzMxxY9dN3YFNDfnD6DPuON13wy9jIawuQsiyRJkMKtCB6/kY15RtI/5Z&#13;
-7zxk2mkFfg==</DigestValue></Reference></SignedInfo><SignatureValue>i7sYCXrrvQMn4VXRg7zkVILY4PVXWvJHc5uruhwV1KyJRhAyZnolKpXhAUuo2skUVb1mBhiuR6Sl&#13;
-eQG2GpXoUN//BgOX3+PpyNcbUZdB1p+dfmAUzERC1T9L+CejpQvGzXJFmI2T5QSwxI7/ujYBFXY8&#13;
-nx4F4Gr1If0aA+mm4rONLTcgKeKmLdYKLBre4O+o/ABrxj4ZZATk/zCTf26WnykRVMwP+eb+mh6e&#13;
-FrC9qtkv/CdSWXCChfnSQlH263V6n1BFch8X7OKorIWDnD4EPnnLXmghNrBEEmQv8z0/v35BqUqN&#13;
-xEgZGuC1DEx7U0R6OlrIq/pG5OMR4lTAAiLTAQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9494dd78-9da3-40d9-b064-d42cf39732a6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4+rqlybB+C/Lqqh3ccZ45wKWw5av/eiZ9V8Pwk5ql+zHI5vqspH1JgtlmghM1X+QdSZ5p4O2ztcm&#13;
+DiymtCukMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_76f79976-3565-426d-96ba-b146de332397"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kJvdY3OizonYK12aq2tACz9V3hi2U30zQFXpwYSdkUFR74fzpzQ8lV61RDpgHptS0OuK2TazqnZa&#13;
+uKI2pL96bw==</DigestValue></Reference></SignedInfo><SignatureValue>oEnLQ8v/3UMIeq8s//DRmzYOLrrGlZui2lar4suvBbWDMRSX5ZI798KeA9OTB4Z84GCOJ1YL6fph&#13;
+MluCoidDHFB6V+n57iZYwW1i6Tupvz84JgdNqxKJNim41Tj4TBlw8JEnaWKQEVkkxjOCrarCIBm1&#13;
+9F1CNfsm16EFrVmx+x66UsGV3G2OMaHbbYF9hVRI5xJmL5FsWgSI7+zJVDI0ez2nf+wpb0GYQGIh&#13;
+UWEChQG5acgsHVSDxggE7MWPNOGRP852ytRGMJWXL8U6AJpUIFOO45ldds1x7ug5+vMoVyafhzAr&#13;
+/FLXokFhvdtENpaei81KA16C9r8d3GFgefjSVw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -804,4 +846,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_46742692-34d8-4a11-82dd-8a510b38e508" Target="#_34f368ad-4347-459b-95d4-d4fc4bd44297"><Timestamp>2023-09-07 09:25:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_76f79976-3565-426d-96ba-b146de332397" Target="#_9494dd78-9da3-40d9-b064-d42cf39732a6"><Timestamp>2023-09-07 09:35:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
