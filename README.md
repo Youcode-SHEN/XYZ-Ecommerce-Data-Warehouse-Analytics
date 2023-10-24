@@ -36,22 +36,6 @@ To start working on this school project, follow these steps:
 
 3. Refer to the documentation provided within each project task folder for detailed instructions on completing each task.
 
-## Project Structure
-
-The project is structured as follows:
-
-- **`data_splitter_script/`**: Contains the script for splitting the dataset into JSON, database, and CSV formats.
-
-- **`etl_job/`**: Includes the Talend ETL job and error management components.
-
-- **`automation/`**: Provides guidance on automating the ETL job.
-
-- **`data_warehouse/`**: Contains components related to data warehouse modeling and optimization.
-
-- **`olap_cubes/`**: Includes materials for OLAP cube design and MDX query examples.
-
-- **`sql_unit_tests/`**: Contains SQL unit tests for data quality assurance.
-
 ## Contributing
 
 This is a school project and is not open for external contributions.
